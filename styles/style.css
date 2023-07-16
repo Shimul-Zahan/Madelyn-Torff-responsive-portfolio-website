@@ -17,6 +17,10 @@
     box-sizing: border-box;
     
 }
+/* shared styles */
+span{
+    color: #FDC435;
+}
 .btn-primary{
     width: 130px;
     height: 57px;
@@ -107,6 +111,7 @@ nav ul li a{
 /* main part */
 main{
     padding: 0 226px 0 222px;
+    margin-bottom: 120px;
 }
 main .title{
     text-align: center;
@@ -168,4 +173,20 @@ main .title{
     font-style: normal;
     font-weight: 500;
     line-height: 150%; /* 27px */
+}
+
+/* footer part */
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer img{
+    margin: 0 30px;
+}
+footer p{
+    margin: 32px;
+    color: #828282;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
 }
