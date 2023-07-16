@@ -174,7 +174,62 @@ main .title{
     font-weight: 500;
     line-height: 150%; /* 27px */
 }
-
+/* about me */
+.about-me-container{
+    margin: 100px 0 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 88px;
+}
+.about-me-title{
+    color: #333;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 130%; /* 62.4px */
+}
+.about-me-subtitle{
+    max-width: 586px;
+    color: #828282;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    margin: 32px 0;
+}
+.about-me-image{
+    max-width: 524px;
+    max-height: 524px;
+    background-color: #FDC435;
+    border-radius: 50%;
+}
+/* form */
+.form-container{
+    width: 400px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+.form-container p{
+    font-family: Comfortaa;
+    margin-bottom: 8px;
+    height: 22px;
+}
+.form-container input, textarea{
+    width: 340px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #E8ECF4;
+    background: #FFF;
+    margin-bottom: 8px;
+}
+.form-container textarea{
+    height: 130px;
+}
+.form-container .btn-primary{
+    margin-left: 210px;
+}
 /* footer part */
 footer{
     text-align: center;
