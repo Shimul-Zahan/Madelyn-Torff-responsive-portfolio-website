@@ -1,12 +1,15 @@
 /* small device */
 @media screen and (max-width: 576px) {
-    header{
+    header,
+    main
+    {
         width: 100%;
-        height: 100%;
         padding: 10px;
         background-image: none;
     }
-    nav{
+    nav,
+    .project-container
+    {
         width: 100%;
         flex-direction: column;
         margin-bottom: 30px;
@@ -14,10 +17,17 @@
     nav ul{
         gap: 15px;
     }
+    .btn-primary{
+        margin-bottom: 30px;
+    }
     .responsive-image{
         display: block;
         width: 100%;
         padding-right: 60px;
-        margin-bottom: 50px;
+    }
+    .project-image img{
+        width: 95%;
+        border-radius: 10px;
+        margin-bottom: 10px;
     }
 }

@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .btn-primary{
     width: 130px;
@@ -38,6 +39,7 @@ header{
     background-image: url(../assets/images/pexels-artem-beliaikin-1832323-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+    margin-bottom: 144px;
 }
 .logo{
     color: #25282B;
@@ -101,4 +103,69 @@ nav ul li a{
 .responsive-image{
     display: none;
 }
+
 /* main part */
+main{
+    padding: 0 226px 0 222px;
+}
+main .title{
+    text-align: center;
+    margin: 0 auto 88px;
+}
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.reverse
+{
+    flex-direction: row-reverse;   
+}
+.border-left{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.border-right{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.project-image img{
+    max-width: 496px;
+    max-height: 524px;
+    margin-bottom: 78px;
+}
+
+.project-desc{
+    max-width: 496px;
+    max-height: 524px;
+}
+.project-title{
+    color:  #25282B;
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 150%; /* 60px */
+}
+.project-subtitle{
+    color: #828282;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    margin: 24px 0;
+}
+.project-btn{
+    width: 207px;
+    height: 47px;
+    padding: 8px 24px;
+    border-radius: 24px;
+    border: 1px solid #25282B;
+    color: #25282B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
